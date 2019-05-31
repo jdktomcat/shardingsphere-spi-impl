@@ -22,11 +22,11 @@ import io.shardingsphere.transaction.base.hook.revert.executor.SQLRevertContext;
 import lombok.Getter;
 import org.apache.shardingsphere.core.optimize.result.insert.InsertOptimizeResult;
 import org.apache.shardingsphere.core.optimize.result.insert.InsertOptimizeResultUnit;
-import org.apache.shardingsphere.core.parse.old.parser.expression.SQLExpression;
-import org.apache.shardingsphere.core.parse.old.parser.expression.SQLIgnoreExpression;
-import org.apache.shardingsphere.core.parse.old.parser.expression.SQLNumberExpression;
-import org.apache.shardingsphere.core.parse.old.parser.expression.SQLParameterMarkerExpression;
-import org.apache.shardingsphere.core.parse.old.parser.expression.SQLTextExpression;
+import org.apache.shardingsphere.core.parse.sql.context.expression.SQLExpression;
+import org.apache.shardingsphere.core.parse.sql.context.expression.SQLIgnoreExpression;
+import org.apache.shardingsphere.core.parse.sql.context.expression.SQLNumberExpression;
+import org.apache.shardingsphere.core.parse.sql.context.expression.SQLParameterMarkerExpression;
+import org.apache.shardingsphere.core.parse.sql.context.expression.SQLTextExpression;
 import org.apache.shardingsphere.core.rule.DataNode;
 
 import java.util.Arrays;
