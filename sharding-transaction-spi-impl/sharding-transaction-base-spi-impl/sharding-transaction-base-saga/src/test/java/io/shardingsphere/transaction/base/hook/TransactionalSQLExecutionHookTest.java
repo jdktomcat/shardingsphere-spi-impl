@@ -26,7 +26,7 @@ import io.shardingsphere.transaction.base.saga.SagaShardingTransactionManager;
 import lombok.SneakyThrows;
 import org.apache.shardingsphere.core.metadata.datasource.DataSourceMetaData;
 import org.apache.shardingsphere.core.metadata.table.TableMetaData;
-import org.apache.shardingsphere.core.parse.antlr.sql.statement.SQLStatement;
+import org.apache.shardingsphere.core.parse.sql.statement.SQLStatement;
 import org.apache.shardingsphere.core.route.RouteUnit;
 import org.junit.Before;
 import org.junit.Test;
